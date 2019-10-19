@@ -456,6 +456,7 @@ ggplot(Observed_Het_per_locus_melt,aes(x = SNP_ID, y= value, fill=variable)) + g
 You can also embed plots, for example:
 
 ```{r pressure, echo=FALSE}
+ggplot(Observed_Het_per_locus_melt,aes(x = SNP_ID, y= value, fill=variable)) + geom_point()
 plot(pressure)
 ```
 
